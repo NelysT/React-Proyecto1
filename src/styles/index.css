@@ -10,3 +10,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar-brand {
+    color: white;
+}
+.navbar-toggler {
+    background: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
